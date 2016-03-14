@@ -653,9 +653,9 @@
 
 			img {
 				display: block;
-				height: 100%;
+				min-height: 100%;
 				min-width: 100%;
-				// position: absolute;
+				position: absolute;
 			}
 		}
 
@@ -688,10 +688,10 @@
 			.image {
 				float: left;
 
-				// img {
-				// 	right: 0;
-				// 	top: 0;
-				// }
+				img {
+					right: 0;
+					top: 0;
+				}
 			}
 
 			.content {
@@ -705,10 +705,10 @@
 			.image {
 				float: right;
 
-				// img {
-				// 	left: 0;
-				// 	top: 0;
-				// }
+				img {
+					left: 0;
+					top: 0;
+				}
 			}
 
 			.content {
