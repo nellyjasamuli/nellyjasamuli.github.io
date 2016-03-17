@@ -23,7 +23,7 @@ gulp.task('styles', function() {
 
 // Scripts
 gulp.task('scripts', function() {
-  return gulp.src('assets/js/*.js')
+  return gulp.src(['assets/js/jquery.min.js', 'assets/js/skel.min.js', 'assets/js/util.js', 'assets/js/main.js', 'assets/js/counter.js'])
     .pipe(concat('bundle.js'))
     .pipe(gulp.dest('assets/js'))
     .pipe(rename({ suffix: '.min' }))

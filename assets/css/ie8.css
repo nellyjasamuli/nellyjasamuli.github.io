@@ -4,33 +4,27 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 /* Basic */
-/* line 16, ../sass/ie8.scss */
 hr {
   border-top: solid 1px #cccccc;
 }
 
-/* line 20, ../sass/ie8.scss */
 blockquote {
   border-left: solid 0.5em #cccccc;
 }
 
 /* Section/Article */
-/* line 27, ../sass/ie8.scss */
 header.major {
   border-color: #cccccc;
 }
-/* line 30, ../sass/ie8.scss */
 header.major p {
   border-top: solid 1px #cccccc;
 }
 
-/* line 37, ../sass/ie8.scss */
 footer.major {
   border-color: #cccccc;
 }
 
 /* Button */
-/* line 44, ../sass/ie8.scss */
 input[type="submit"],
 input[type="reset"],
 input[type="button"],
@@ -38,7 +32,6 @@ input[type="button"],
   position: relative;
   -ms-behavior: url("assets/js/ie/PIE.htc");
 }
-/* line 51, ../sass/ie8.scss */
 input[type="submit"].alt,
 input[type="reset"].alt,
 input[type="button"].alt,
@@ -47,7 +40,6 @@ input[type="button"].alt,
 }
 
 /* Form */
-/* line 58, ../sass/ie8.scss */
 input[type="text"],
 input[type="password"],
 input[type="email"],
@@ -59,25 +51,21 @@ textarea {
 }
 
 /* Image */
-/* line 70, ../sass/ie8.scss */
 .image {
   border: 0;
   display: inline-block;
   position: relative;
 }
-/* line 75, ../sass/ie8.scss */
 .image:after {
   display: none;
 }
 
 /* Box */
-/* line 82, ../sass/ie8.scss */
 .box {
   border: solid 1px #cccccc;
 }
 
 /* Header */
-/* line 88, ../sass/ie8.scss */
 #header {
   background-image: url("../../images/header.jpg") !important;
   background-size: cover !important;
@@ -86,11 +74,9 @@ textarea {
   padding: 8em 0 !important;
   color: #ffffff;
 }
-/* line 96, ../sass/ie8.scss */
 #header a {
   color: inherit;
 }
-/* line 100, ../sass/ie8.scss */
 #header:before {
   content: '';
   background-image: url("images/overlay.png");
@@ -102,18 +88,15 @@ textarea {
   display: block;
   z-index: 0;
 }
-/* line 112, ../sass/ie8.scss */
 #header > * {
   position: relative;
   z-index: 1;
 }
-/* line 117, ../sass/ie8.scss */
 #header .logo {
   -ms-behavior: url("assets/js/ie/PIE.htc");
 }
 
 /* Footer */
-/* line 124, ../sass/ie8.scss */
 #footer {
   background-image: none !important;
   margin-top: 0 !important;
@@ -122,7 +105,6 @@ textarea {
 }
 
 /* Main */
-/* line 133, ../sass/ie8.scss */
 #main {
   padding: 4em 0;
 }
