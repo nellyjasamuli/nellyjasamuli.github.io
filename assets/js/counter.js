@@ -37,7 +37,5 @@ function initializeClock(id, endtime) {
   var timeinterval = setInterval(updateClock, 1000);
 }
 
-// 11.00, because of +03 h timezone
-var deadline = new Date('2016-09-10T11:00:00');
-// var deadline = new Date(2016, 3, 11, 14, 0, 0);
+var deadline = new Date('Sat, 10 Sep 2016 14:00:00 +0300');
 initializeClock('clockdiv', deadline);
