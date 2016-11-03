@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Nelly ja Samuli</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600,600italic,700,700italic" />
+		<style>
+			html {
+				width: 100%;
+				height: 100%;
+			}
+			body {
+				height: 100%;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+                flex-direction: column;
+				background-image: url('../images/kiitos_bg.jpg');
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				background-size: cover;
+			}
+			h1 {
+				font-size: 2em;
+				font-family: "Source Sans Pro";
+				color: white;
+			}
+            p, a {
+                color: white;
+            }
+		</style>
+	</head>
+	<body onload="setTimeout(redirect, 3000);">
+		<p>Sivu ohjautuu automaattisesti Dropboxiin...</p>
+        <p><a href="https://www.dropbox.com/sh/t350voqtae7n6mn/AAA8BSIKVal4T35DwyvcbQrVa?dl=0">Jos niin ei tapahdu, pääset sinne tästä.</a></p>
+        <p>Ethän jaa kuvia eteenpäin.</p>
+	</body>
+    <script>
+        function redirect() {
+            window.location.assign("https://www.dropbox.com/sh/t350voqtae7n6mn/AAA8BSIKVal4T35DwyvcbQrVa?dl=0");
+        }
+    </script>
+</html>
